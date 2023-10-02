@@ -1,0 +1,14 @@
+.capsula-tema {
+    background-color: #f0f0f0; /* Color de fondo de la cápsula */
+    border: 1px solid #ccc; /* Borde alrededor de la cápsula */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio entre cápsulas */
+}
+
+.capsula-tema h2 {
+    font-size: 1.2em; /* Tamaño del título del tema */
+}
+
+.capsula-tema p {
+    font-size: 0.9em; /* Tamaño del texto de descripción */
+}
