@@ -1,9 +1,9 @@
 body{
     background-color: rgba(105, 105, 105, 0.582);
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
-/* Estilos de la barra de navegación */
+/*                               Estilos de la barra de navegación                              */
 .nav-bar_principal {
     background-color: #000; /* Color de fondo negro */
     color: #fff; /* Texto en blanco */
