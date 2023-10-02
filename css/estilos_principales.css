@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(105, 105, 105, 0.582);
+}
+
+/* Estilos de la barra de navegación */
+.nav-bar_principal {
+    background-color: #000; /* Color de fondo negro */
+    color: #fff; /* Texto en blanco */
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-seccion {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utiliza flexbox para alinear los elementos horizontalmente */
+}
+
+.nav-opcion {
+    margin-right: 20px; /* Espacio entre las opciones de navegación */
+}
+
+.nav-opcion a {
+    display: block;
+    color: #fff; /* Texto en blanco */
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s; /* Transición para el cambio de color al pasar el cursor */
+}
+
+.nav-opcion a:hover {
+    background-color: #00ff00; /* Cambia a color verde al pasar el cursor */
+    color: #000; /* Texto en negro */
+}
