@@ -1,10 +1,18 @@
-/* Estilos de la galería de temas */
 .temas {
     display: flex;
     flex-wrap: nowrap; /* Evita que los temas se envuelvan a la siguiente línea */
-    overflow-x: auto; /* Habilita la barra de desplazamiento horizontal si es necesario */
-    border: 1px solid black;
-    padding: 10px 0; /* Ajusta el espaciado superior e inferior */
+    overflow: hidden; /* Oculta el desbordamiento de los temas */
+    white-space: nowrap; /* Evita el desbordamiento de contenido dentro de las cápsulas */
+    animation: desplazamiento 15s linear infinite; /* Animación de desplazamiento */
+}
+
+@keyframes desplazamiento {
+    0% {
+        transform: translateX(0); /* Inicio */
+    }
+    100% {
+        transform: translateX(-100%); /* Fin */
+    }
 }
 
 .capsula-tema {
@@ -13,7 +21,6 @@
     border: 1px solid #ccc; /* Borde alrededor de la cápsula */
     padding: 20px; /* Espaciado interno */
     margin-right: 20px; /* Espacio entre cápsulas */
-    white-space: nowrap; /* Evita el desbordamiento de contenido dentro de las cápsulas */
     min-width: 200px; /* Ancho mínimo de cada cápsula */
 }
 
