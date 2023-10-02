@@ -11,6 +11,8 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 10px 0; /* Espacio en la parte superior e inferior de la barra de navegación */
 }
 
 .nav-seccion {
@@ -18,10 +20,11 @@ body{
     margin: 0;
     padding: 0;
     display: flex; /* Utiliza flexbox para alinear los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
 }
 
 .nav-opcion {
-    margin-right: 20px; /* Espacio entre las opciones de navegación */
+    margin: 0 10px; /* Espacio horizontal entre las opciones de navegación */
 }
 
 .nav-opcion a {
